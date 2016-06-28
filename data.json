@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "687c4e79-ce1b-4ca1-b048-14fbd83d60f8",
+    "version": "g2wAAAACaAJtAAAADBfRJAHdwv6CAA0jVGEBaAJtAAAADGQ0XeKBna8GAAyU2mEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583257352,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /authn/pins/{id} PUT endpoint for \"CREATE_PIN\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_PIN"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "6c23d31a-15cd-4a78-a8cb-926a416220de",
+    "version": "g2wAAAACaAJtAAAADBfRJAHdwv6CAA0jVmEBaAJtAAAADGQ0XeKBna8GAAyU3WEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583266882,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for Application endpoint applied to all microservices endpoints"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ANY"
+    ],
+    "subjectTypes": [
+      "APPLICATION"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "928e1357-b4b0-4b80-8f6d-16da9b39e576",
+    "version": "g2wAAAABaAJtAAAADBfRJAHdwv6CAA0jV2ECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583311414,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/persons/{personId}/requestable GET endpoint for \"REQUEST_PERSONREQUESTABLEPACKAGE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "REQUEST_PERSONREQUESTABLEPACKAGE"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "3c2e1a84-d088-4f52-bc06-ea438b3927d0",
+    "version": "g2wAAAACaAJtAAAADDOnyVGDJYU1AAAvxWEBaAJtAAAADG4NnKXl/8hjAAIKC2EBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583244576,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId}/accounts/securityQuestion PUT endpoint for \"UPDATE_PERSONSECURITYQUESTIONS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UPDATE_PERSONSECURITYQUESTIONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "63ac3e26-62a3-403f-9198-6b817f333528",
+    "version": "g2wAAAABaAJtAAAADCzwrvMU/MJzAAHaIGECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583303653,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/tasks/approve or deny - org package POST endpoint for \"APPROVE_ORGPACKAGEREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "APPROVE_ORGPACKAGEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTAyIl0gPT0gIjUwMiIgJiYgc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDgiXSA9PSAiNTA4IiApDQoJCXJldHVybiAiUEVSTUlUIjsNCgllbHNlIGlmKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTMyIl0gPT0gIjUzMiIgKQ0KCQl7DQoJCQlpZihzdWJqZWN0WyJwZXJzb24ub3JnYW5pemF0aW9uLmlkIl0gPT0gcmVzb3VyY2VbIm9yZ2FuaXphdGlvbklkIl0pDQoJCQkJcmV0dXJuICJQRVJNSVQiOw0KCQkJZWxzZQ0KCQkJCXsJCQ0KCQkJCXZhciB2YWx1ZSA9IHJlc291cmNlWyAib3JnYW5pemF0aW9uLnBhcmVudC5pZCJdOw0KCQkJCSAgIGZvcih2YXIgcHJvcCBpbiBzdWJqZWN0ICkgew0KCQkJCSAgICAgICBpZiggc3ViamVjdC5oYXNPd25Qcm9wZXJ0eSggcHJvcCApICkgew0KCQkJCSAgICAJICAgaWYoIHN1YmplY3RbIHByb3AgXSA9PT0gdmFsdWUgKQ0KCQkJCSAgICAgICAgICAgIAlyZXR1cm4gIlBFUk1JVCI7DQoJCQkJICAgICAgIH0NCgkJCQkgICB9DQoJCQkJIH0NCgkJfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ0K"
+  },
+  {
+    "id": "7553a562-1d63-4d9e-91b0-57ffe578da0e",
+    "version": "g2wAAAABaAJtAAAADDOnyVGDJYU1AAAvymECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583308198,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages POST endpoint for \"CREATE_PACKAGES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_PACKAGES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "bf00d6d7-7fe0-49d0-ae66-04466abae34c",
+    "version": "g2wAAAACaAJtAAAADDOnyVGDJYU1AAAvzGEBaAJtAAAADG4NnKXl/8hjAAIKEGEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583308310,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages GET endpoint for \"RETRIEVE_PACKAGES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PACKAGES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIlBFUk1JVCI7DQp9"
+  },
+  {
+    "id": "507696e9-5975-4119-99ed-e9a4133f8b6e",
+    "version": "g2wAAAACaAJtAAAADDOnyVGDJYU1AAAvx2ECaAJtAAAADG4NnKXl/8hjAAIKDWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583291409,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId}/accounts/password GET endpoint for \"RETRIEVE_PASSWORDACCOUNT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PASSWORDACCOUNT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "5d34ef5f-f0f5-48b1-a652-436a6c1f62ac",
+    "version": "g2wAAAABaAJtAAAADLgMXkzJXXaLAAGdkmECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583259152,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /password/operations/validate GET endpoint for \"VALIDATE_PASSWORDPOLICY\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "VALIDATE_PASSWORDPOLICY"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "15cde181-0a15-4bee-ae0d-f53a324d02e0",
+    "version": "g2wAAAACaAJtAAAADBfRJAErDuCtAAwSxGEBaAJtAAAADIPIgNAlXMnOAAAI82EBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583262374,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /sessionToken/tasks/validate POST endpoint for \"VALIDATE_SESSIONTOKEN\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "VALIDATE_SESSIONTOKEN"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "54288d28-b2ac-4892-83c9-c74b42bb32b3",
+    "version": "g2wAAAABaAJtAAAADIPIgNAlXMnOAAAI9WECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583285770,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/tasks/approve?requestId POST endpoint for \"APPROVE_PERSONREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "APPROVE_PERSONREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTA4Il0gPT0gIjUwOCIgKSB7DQoJCWlmKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTAyIl0gPT0gIjUwMiIgJiYgc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41NTAiXSA9PSAiNTUwIiApDQoJCXJldHVybiAiUEVSTUlUIjsNCgl9DQoJZWxzZSBpZiggc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDIiXSA9PSAiNTAyIiB8fCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjU1MCJdID09ICI1NTAiICl7DQoJCWlmKHN1YmplY3RbInBlcnNvbi5vcmdhbml6YXRpb24uaWQiXSA9PSByZXNvdXJjZVsib3JnYW5pemF0aW9uSWQiXSkNCgkJCXJldHVybiAiUEVSTUlUIjsNCgkJZWxzZQ0KCQkJewkJDQoJCQl2YXIgdmFsdWUgPSByZXNvdXJjZVsgIm9yZ2FuaXphdGlvbi5wYXJlbnQuaWQiXTsNCgkJCSAgIGZvcih2YXIgcHJvcCBpbiBzdWJqZWN0ICkgew0KCQkJICAgICAgIGlmKCBzdWJqZWN0Lmhhc093blByb3BlcnR5KCBwcm9wICkgKSB7DQoJCQkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkJCSAgICAgICAgICAgIAlyZXR1cm4gIlBFUk1JVCI7DQoJCQkgICAgICAgfQ0KCQkJICAgfQ0KCQkJIH0NCgkgfQ0KICAgCXJldHVybiAiREVOWSI7DQp9"
+  },
+  {
+    "id": "92c41d61-632d-4da9-a3ef-69027b7bc4af",
+    "version": "g2wAAAACaAJtAAAADBfRJAErDuCtAAwSx2EBaAJtAAAADLgMXkzJXXaLAAGdl2EBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583293343,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /services GET endpoint for \"RETRIEVE_SERVICES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_SERVICES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "8beb7861-b4ce-4db7-a3dd-6f045ceecc41",
+    "version": "g2wAAAABaAJtAAAADLgMXkzJXXaLAAGdm2ECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583308522,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/{packageId} GET endpoint for \"RETRIEVE_PACKAGE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PACKAGE"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICJ7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIlVTRVJfRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJDQoJaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTA4Il0gPT0gIjUwOCIgJiYgc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41NTciXSA9PSAiNTU3IiApIHsNCgkJb2JqID0gInsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiRVhDSEFOR0VBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJcmV0dXJuIG9iajsJCQ0KCX0NCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjU1NCJdID09ICI1NTQiKXsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQkJcmV0dXJuIG9iajsNCgkgfQ0KCWVsc2UgaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTQyIl0gPT0gIjU0MiIpIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJBUFBBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJcmV0dXJuIG9iajsNCgl9DQoJZWxzZSBpZihzdWJqZWN0WyJwZXJzb24uaWQiXSA9PSByZXNvdXJjZVsicGVyc29uLmlkIl0pew0KCQlyZXR1cm4gb2JqOw0KCX0NCgllbHNlIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJERU5ZXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiREVGQVVMVF9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiU1VCSkVDVF9OT1RfVkFMSURfUFJJVklMRUdFXCJdfSI7DQoJICAgCXJldHVybiBvYmo7DQoJfQ0KfQ=="
+  },
+  {
+    "id": "f775cb1a-9f32-4ad7-b58d-c2d765bc3198",
+    "version": "g2wAAAACaAJtAAAADBfRJAErDuCtAAwSymEBaAJtAAAADG4NnKXmAQTKAAIMpmEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583313471,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/{packageId}/organizations/tacs GET endpoint for \"RETRIEVE_ORGPACKAGETACS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_ORGPACKAGETACS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICJ7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIlVTRVJfRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJDQoJaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTA4Il0gPT0gIjUwOCIgJiYgc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41NTciXSA9PSAiNTU3IiApIHsNCgkJb2JqID0gInsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiRVhDSEFOR0VBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJcmV0dXJuIG9iajsJCQ0KCX0NCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjU1NCJdID09ICI1NTQiKXsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQkJcmV0dXJuIG9iajsNCgkgfQ0KCWVsc2Ugew0KCQlvYmogPSAiICB7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIkRFTllcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJERUZBVUxUX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJTVUJKRUNUX05PVF9WQUxJRF9QUklWSUxFR0VcIl19IjsNCgkgICAJcmV0dXJuIG9iajsNCgl9DQp9"
+  },
+  {
+    "id": "14dab47d-f1ab-49da-bffd-d0aa732c352c",
+    "version": "g2wAAAADaAJtAAAADBfRJAErDuCtAAwSwmEBaAJtAAAADCzwrvMc2npDAAAIvmEBaAJtAAAADLgMXkzJXXaLAAGdnGEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583261993,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /sessionToken/tasks/generate POST endpoint for \"GENERATE_SESSIONTOKEN\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "GENERATE_SESSIONTOKEN"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "c5dfe6ac-e9d8-4369-aeab-3d4e4c258762",
+    "version": "g2wAAAACaAJtAAAADCzwrvMU3icJAAHcE2EBaAJtAAAADDOnyVGDI7NAAAAvnWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583269294,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /organizations/{id}/templates PUT endpoint for \"UPDATE_ORGTEMPLATE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UPDATE_ORGTEMPLATES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "4bdc6a2d-844d-460b-9ce8-074e17285388",
+    "version": "g2wAAAACaAJtAAAADDOnyVGDI7NAAAAvnmEBaAJtAAAADJlRyVw1WLH3AAAv42EBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583286909,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/registration POST endpoint for \"CREATE_PERSONREG\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_PERSONREG"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "73073367-c536-444d-86b9-4337d453aa6c",
+    "version": "g2wAAAACaAJtAAAADDOnyVGDI7NAAAAvn2EBaAJtAAAADJlRyVw1WLH3AAAv5mECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583313354,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/{packageId}/persons/tacs GET endpoint for \"RETRIEVE_PERSONPACKAGECLAIMS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PACKAGETACSBYLANG"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICJ7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIlVTRVJfRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJDQoJaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTA4Il0gPT0gIjUwOCIgJiYgc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41NTciXSA9PSAiNTU3IiApIHsNCgkJb2JqID0gInsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiRVhDSEFOR0VBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJcmV0dXJuIG9iajsJCQ0KCX0NCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjU1NCJdID09ICI1NTQiKXsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQkJcmV0dXJuIG9iajsNCgkgfQ0KCWVsc2UgaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTQyIl0gPT0gIjU0MiIpIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJBUFBBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJcmV0dXJuIG9iajsNCgl9DQoJZWxzZSBpZihzdWJqZWN0WyJwZXJzb24uaWQiXSA9PSByZXNvdXJjZVsicGVyc29uLmlkIl0pew0KCQlyZXR1cm4gb2JqOw0KCX0NCgllbHNlIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJERU5ZXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiREVGQVVMVF9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiU1VCSkVDVF9OT1RfVkFMSURfUFJJVklMRUdFXCJdfSI7DQoJICAgCXJldHVybiBvYmo7DQoJfQ0KfQ=="
+  },
+  {
+    "id": "78cb9fcc-cd9c-43ac-b412-0b038d009685",
+    "version": "g2wAAAACaAJtAAAADDOnyVGDJX8sAAAvsmEBaAJtAAAADIPIgNBNiy6nAAAJCWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583276203,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId} PUT endpoint for \"UPDATE_PERSON\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UPDATE_PERSON"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "5ee571d1-2a02-4eb9-b3c8-57044c9603ea",
+    "version": "g2wAAAABaAJtAAAADGQ0XeIrvp/9AAAI6WECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583280255,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /personInvitations GET endpoint for \"RETRIEVE_PERSONINVITATIONS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONINVITATIONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "7307293f-b9b6-4681-bcc7-573be9e5835f",
+    "version": "g2wAAAABaAJtAAAADIPIgNBNiy6nAAAJC2ECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583291095,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/password/validate POST endpoint for \"VALIDATE_PERSONPASSWORD\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "VALIDATE_PERSONPASSWORD"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "1c87de1e-ba69-4a00-bf32-2bd35f66c732",
+    "version": "g2wAAAABaAJtAAAADIPIgNBNiy6nAAAJDGECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583300173,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/{id} - user package DELETE endpoint for \"DELETE_USERPACKAGEREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_USERPACKAGEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ"
+  },
+  {
+    "id": "c43ce86e-4925-4f4b-a0bd-f0e51abb2156",
+    "version": "g2wAAAABaAJtAAAADIPIgNBNiy6nAAAJDWECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583311306,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/tasks/removeServiceMembership POST endpoint for \"REMOVE_SERVICEMEMBERSHIP\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "REMOVE_SERVICEMEMBERSHIP"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "485f6cd4-bc8a-4fc8-b30b-068943bf6a36",
+    "version": "g2wAAAACaAJtAAAADGQ0XeIrvp/9AAAI62EBaAJtAAAADIPIgNBNiy6nAAAJD2EBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583312736,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/{packageId}/services GET endpoint for \"RETRIEVE_SERVICESBYPACKAGE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_SERVICESBYPACKAGE"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "DQpmdW5jdGlvbiBhdXRob3JpemUoc3ViamVjdCwgcmVzb3VyY2UsIGVudkF0dHJpYnV0ZXMpIHsNCgkNCgl2YXIgb2JqID0gInsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiVVNFUl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkNCglpZihzdWJqZWN0WyJwZXJzb24uaWQiXSA9PSByZXNvdXJjZVsicGVyc29uLmlkIl0pew0KCQlyZXR1cm4gb2JqOw0KCX0NCgllbHNlIGlmIChzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwOCJdID09ICI1MDgiICYmIHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTU3Il0gPT0gIjU1NyIgKSB7DQoJCW9iaiA9ICJ7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIkVYQ0hBTkdFQURNSU5fRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJCXJldHVybiBvYmo7CQkNCgl9DQoNCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjU1NCJdID09ICI1NTQiKXsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQkJcmV0dXJuIG9iajsNCgkgfQ0KCWVsc2UgaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTQyIl0gPT0gIjU0MiIpIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJBUFBBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJcmV0dXJuIG9iajsNCgl9DQoJZWxzZSB7DQoJCW9iaiA9ICIgIHsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiREVOWVwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIkRFRkFVTFRfRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIlNVQkpFQ1RfTk9UX1ZBTElEX1BSSVZJTEVHRVwiXX0iOw0KCSAgIAlyZXR1cm4gb2JqOw0KCX0NCn0="
+  },
+  {
+    "id": "fbaa27de-4ff1-46f5-99f0-9ec0d0b839fb",
+    "version": "g2wAAAACaAJtAAAADIPIgNBNiy6nAAAJCGECaAJtAAAADJlRyVw1WLGMAAAvpWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583249610,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /passwords GET endpoint for \"RETRIEVE_PASSWORDS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PASSWORDS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "890d1aeb-2980-483f-a2f4-59d9116b052b",
+    "version": "g2wAAAABaAJtAAAADBfRJAEp3K26AAweZGECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583246036,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /securityQuestions GET endpoint for \"RETRIEVE_SECURITYQUESTIONS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_SECURITYQUESTIONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "a7b05627-7f1e-4ea2-a961-71cf45c18804",
+    "version": "g2wAAAABaAJtAAAADIPIgNAuY9eqAAwhumECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583261912,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /token/policies GET endpoint for \"RETRIEVE_TOKENPOLICIES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_TOKENPOLICIES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "f3428143-2bbc-437b-bbea-13b8b5f63e66",
+    "version": "g2wAAAACaAJtAAAADGQ0XeL+3FpEAAAIqWEBaAJtAAAADIPIgNAuY9eqAAwht2EBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583257246,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /authn/pins/{id} DELETE endpoint for \"DELETE_PIN\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_PIN"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "dcaf743e-f2e9-446f-97d5-c4be58f201c9",
+    "version": "g2wAAAABaAJtAAAADBfRJAEp3K26AAweamECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583291179,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/tasks/deny POST endpoint for \"DENY_PERSONREGREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DENY_PERSONREGREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICIgIHsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiRVhDSEFOR0VBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkNCglpZiAoc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDgiXSA9PSAiNTA4Iikgew0KCQlpZihzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwMiJdID09ICI1MDIiIHx8IHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTUwIl0gPT0gIjU1MCIgKQ0KCQlyZXR1cm4gb2JqOw0KCX0NCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwMiJdID09ICI1MDIiIHx8IHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTUwIl0gPT0gIjU1MCIpew0KCQkNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQkNCgkJaWYoc3ViamVjdFsicGVyc29uLm9yZ2FuaXphdGlvbi5pZCJdID09IHJlc291cmNlWyJvcmdhbml6YXRpb25JZCJdKQ0KCQkJcmV0dXJuIG9iajsNCgkJZWxzZQ0KCQkJewkJDQoJCQl2YXIgdmFsdWUgPSByZXNvdXJjZVsgIm9yZ2FuaXphdGlvbi5wYXJlbnQuaWQiXTsNCgkJCSAgIGZvcih2YXIgcHJvcCBpbiBzdWJqZWN0ICkgew0KCQkJICAgICAgIGlmKCBzdWJqZWN0Lmhhc093blByb3BlcnR5KCBwcm9wICkgKSB7DQoJCQkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkJCSAgICAgICAgICAgIAlyZXR1cm4gb2JqOw0KCQkJICAgICAgIH0NCgkJCSAgIH0NCgkJCSB9DQoJIH0NCgllbHNlIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJERU5ZXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiREVGQVVMVF9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiU1VCSkVDVF9OT1RfVkFMSURfUFJJVklMRUdFX09SX09SR0FOSVpBVElPTlwiXX0iOw0KCSAgIAlyZXR1cm4gb2JqOw0KCX0NCn0"
+  },
+  {
+    "id": "8d63501b-0b1b-4869-9a55-7e25d9b208bb",
+    "version": "g2wAAAACaAJtAAAADGQ0XeL+3FpEAAAIrGEBaAJtAAAADIPIgNAuY9eqAAwhvmEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583269696,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/tasks/deny POST endpoint for \"DENY_ORGREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DENY_ORGREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoNCgl2YXIgb2JqID0gIiI7DQoNCglpZiAoc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDgiXSA9PSAiNTA4Ig0KCQkJfHwgc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDEiXSA9PSAiNTAxIikgew0KCQlvYmogPSAieyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJFWENIQU5HRUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQlyZXR1cm4gb2JqOw0KCX0NCg0KCWVsc2UgaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTUxIl0gPT0gIjU1MSIpIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KDQoJCWlmIChzdWJqZWN0WyJwZXJzb24ub3JnYW5pemF0aW9uLmlkIl0gPT0gcmVzb3VyY2VbIm9yZ2FuaXphdGlvbklkIl0pDQoJCQlyZXR1cm4gb2JqOw0KCQllbHNlIHsNCgkJCXZhciB2YWx1ZSA9IHJlc291cmNlWyJvcmdhbml6YXRpb24ucGFyZW50LmlkIl07DQoJCQlmb3IgKCB2YXIgcHJvcCBpbiBzdWJqZWN0KSB7DQoJCQkJaWYgKHN1YmplY3QuaGFzT3duUHJvcGVydHkocHJvcCkpIHsNCgkJCQkJaWYgKHN1YmplY3RbcHJvcF0gPT09IHZhbHVlKQ0KCQkJCQkJcmV0dXJuIG9iajsNCgkJCQl9DQoJCQl9DQoJCX0NCgl9IGVsc2Ugew0KCQlvYmogPSAiICB7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIkRFTllcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJERUZBVUxUX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJTVUJKRUNUX05PVF9WQUxJRF9QUklWSUxFR0VcIl19IjsNCgkJcmV0dXJuIG9iajsNCgl9DQoJcmV0dXJuIG9iajsNCn0NCg"
+  },
+  {
+    "id": "8448a6e2-fc17-4327-8409-dc8e4d9fe00e",
+    "version": "g2wAAAABaAJtAAAADIPIgNAuY9eqAAwhv2ECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583283879,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/{requestId} DELETE endpoint for \"DELETE_PERSONREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_PERSONREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "22339ef9-87ce-4b62-afad-ed96ae58dc98",
+    "version": "g2wAAAACaAJtAAAADIPIgNAuY9eqAAwhvGEBaAJtAAAADJlRyVw1WLFUAAAvqWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583267419,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /organizations/{id} GET endpoint for \"RETRIEVE_ORG\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_ORG"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLm9yZ2FuaXphdGlvbi5pZCJdID09IHJlc291cmNlWyJvcmdhbml6YXRpb24uaWQiXSkNCgkgICAgICByZXR1cm4gIlBFUk1JVCI7DQoJICAgcmV0dXJuICJERU5ZIjsNCn0NCiAgIA=="
+  },
+  {
+    "id": "103c9aa4-0c41-40e9-aff9-c3fe1a2c91a2",
+    "version": "g2wAAAABaAJtAAAADBfRJAEp3K26AAweZ2ECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583276889,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/tasks/activate POST endpoint for \"ACTIVATE_PERSON\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ACTIVATE_PERSON"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "76cc4ad5-1b76-459b-ab38-cc9d79fec290",
+    "version": "g2wAAAABaAJtAAAADBfRJAErpnv/AAwaGmECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583265221,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for Application endpoint applied to all microservices endpoints"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ANY"
+    ],
+    "subjectTypes": [
+      "APPLICATION"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "a3bba9e3-a101-4b30-8eff-56421c048253",
+    "version": "g2wAAAACaAJtAAAADBfRJAErpnv/AAwaHGEBaAJtAAAADLgMXkzJXiLVAAGbjmEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583269052,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /organizations/{id}/templates DELETE endpoint for \"DELETE_ORGTEMPLATE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_ORGTEMPLATES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "ba6408f2-2dfa-4ee8-aa54-5cf29c1db00c",
+    "version": "g2wAAAACaAJtAAAADBfRJAHtHzjvAA0kIWEBaAJtAAAADJlRyVw1XA0PAAAvgWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583292002,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /services POST endpoint for \"CREATE_SERVICES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_SERVICES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "0a1732f5-1c18-4041-ae4d-ae21668a5bf6",
+    "version": "g2wAAAABaAJtAAAADBfRJAErpnv/AAwaIGECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583306014,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for DENY_ORGPACKAGEREQUEST  action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DENY_ORGPACKAGEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJaWYgKHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTAzIl0gPT0gIjUwMyIgICYmIHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTA4Il0gPT0gIjUwOCIgKQ0KCQlyZXR1cm4gIlBFUk1JVCI7DQoJZWxzZSBpZihzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUzMiJdID09ICI1MzIiICkNCgkJew0KCQkJaWYoc3ViamVjdFsicGVyc29uLm9yZ2FuaXphdGlvbi5pZCJdID09IHJlc291cmNlWyJvcmdhbml6YXRpb25JZCJdKQ0KCQkJCXJldHVybiAiUEVSTUlUIjsNCgkJCWVsc2UNCgkJCQl7CQkNCgkJCQl2YXIgdmFsdWUgPSByZXNvdXJjZVsgIm9yZ2FuaXphdGlvbi5wYXJlbnQuaWQiXTsNCgkJCQkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkJCQkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkJCQkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkJCQkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCQkJCSAgICAgICB9DQoJCQkJICAgfQ0KCQkJCSB9DQoJCX0NCgkgICAJcmV0dXJuICJERU5ZIjsNCn0NCg=="
+  },
+  {
+    "id": "349fb7bc-88f9-4bea-a733-925810c2f8b0",
+    "version": "g2wAAAACaAJtAAAADCzwrvOIipfQAAFGzmEBaAJtAAAADG4NnKXmAJzOAAILmWEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583255768,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /passwords/tasks/authenticate POST endpoint for \"AUTHENTICATE_PERSONPASSWORD\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "AUTHENTICATE_PERSONPASSWORD"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "6fcc49fa-fe9f-48ca-8297-a6417d886015",
+    "version": "g2wAAAABaAJtAAAADG4NnKXmAJzOAAILmmECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583262491,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /sessionToken/nonce/validate POST endpoint for \"VALIDATE_NONCEREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "VALIDATE_NONCEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "57ba2c6d-5f16-48dc-957a-4b4dc8692d56",
+    "version": "g2wAAAABaAJtAAAADJlRyVw1W2dYAAAvqmECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583277003,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/tasks/suspend POST endpoint for \"SUSPEND_PERSON\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SUSPEND_PERSON"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "1f060ca9-a47e-4cd0-b7f9-69d0e4ed289b",
+    "version": "g2wAAAABaAJtAAAADCzwrvOIipfQAAFGz2ECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583281624,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests GET endpoint for \"RETRIEVE_PERSONREQUESTS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONREQUESTS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICIgIHsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiRVhDSEFOR0VBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkNCglpZiAoc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDgiXSA9PSAiNTA4Iikgew0KCQlpZihzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwMiJdID09ICI1MDIiIHx8IHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTUwIl0gPT0gIjU1MCIgKQ0KCQlyZXR1cm4gb2JqOw0KCX0NCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwMiJdID09ICI1MDIiIHx8IHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTUwIl0gPT0gIjU1MCIpew0KCQkNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJQRVJNSVRcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJTRUNVUklUWUFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCQkNCgkJaWYoc3ViamVjdFsicGVyc29uLm9yZ2FuaXphdGlvbi5pZCJdID09IHJlc291cmNlWyJvcmdhbml6YXRpb25JZCJdKQ0KCQkJcmV0dXJuIG9iajsNCgkJZWxzZQ0KCQkJewkJDQoJCQl2YXIgdmFsdWUgPSByZXNvdXJjZVsgIm9yZ2FuaXphdGlvbi5wYXJlbnQuaWQiXTsNCgkJCSAgIGZvcih2YXIgcHJvcCBpbiBzdWJqZWN0ICkgew0KCQkJICAgICAgIGlmKCBzdWJqZWN0Lmhhc093blByb3BlcnR5KCBwcm9wICkgKSB7DQoJCQkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkJCSAgICAgICAgICAgIAlyZXR1cm4gb2JqOw0KCQkJICAgICAgIH0NCgkJCSAgIH0NCgkJCSB9DQoJIH0NCgllbHNlIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJERU5ZXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiREVGQVVMVF9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiU1VCSkVDVF9OT1RfVkFMSURfUFJJVklMRUdFX09SX09SR0FOSVpBVElPTlwiXX0iOw0KCSAgIAlyZXR1cm4gb2JqOw0KCX0NCn0="
+  },
+  {
+    "id": "1d363a88-44c6-45fb-8fac-ac6fd9670a79",
+    "version": "g2wAAAABaAJtAAAADJlRyVw1W2dYAAAvrWECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583293870,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId}/packages/{packageId} GET endpoint for \"RETRIEVE_PERSONPACKAGEGRANT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONPACKAGEGRANT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "021ec1a2-4aaa-4604-992a-d0af0f09f2d4",
+    "version": "g2wAAAACaAJtAAAADG4NnKXmAJzOAAILoWEBaAJtAAAADLgMXkyhjv+oAAIJUmEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583294517,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /organizations/{organizationId}/packages/{packageId} PUT endpoint for \"UPDATE_ORGPACKAGEGRANT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UPDATE_ORGPACKAGEGRANT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "b3291f03-eb21-4313-97ad-40131544183f",
+    "version": "g2wAAAACaAJtAAAADG4NnKXmAJzOAAILpmEBaAJtAAAADLgMXkyhjv+oAAIJVGEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583302677,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/tasks/approve or deny- user package POST endpoint for \"APPROVE_USERPACKAGEREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "APPROVE_USERPACKAGEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICIgIHsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiRVhDSEFOR0VBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkNCglpZiAoc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41MDgiXSA9PSAiNTA4IiAmJiBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwMiJdID09ICI1MDIiKSB7DQoJCXJldHVybiBvYmo7DQoJfQ0KCWVsc2UgaWYoIHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTMzIl0gPT0gIjUzMyIgKXsNCgkJDQoJCW9iaiA9ICIgIHsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiU0VDVVJJVFlBRE1JTl9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiREVGQVVMVF9BRFZJQ0VcIl19IjsNCgkJDQoJCWlmKHN1YmplY3RbInBlcnNvbi5vcmdhbml6YXRpb24uaWQiXSA9PSByZXNvdXJjZVsib3JnYW5pemF0aW9uSWQiXSkNCgkJCXJldHVybiBvYmo7DQoJCWVsc2UNCgkJCXsJCQ0KCQkJdmFyIHZhbHVlID0gcmVzb3VyY2VbICJvcmdhbml6YXRpb24ucGFyZW50LmlkIl07DQoJCQkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkJCSAgICAgICBpZiggc3ViamVjdC5oYXNPd25Qcm9wZXJ0eSggcHJvcCApICkgew0KCQkJICAgIAkgICBpZiggc3ViamVjdFsgcHJvcCBdID09PSB2YWx1ZSApDQoJCQkgICAgICAgICAgICAJcmV0dXJuIG9iajsNCgkJCSAgICAgICB9DQoJCQkgICB9DQoJCQkgfQ0KCSB9DQoJZWxzZSBpZiggc3ViamVjdFsicGVyc29uLnByaXZpbGVnZS41NDIiXSA9PSAiNTQyIiApew0KCQlvYmogPSAiICB7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIkFQUEFETUlOX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJERUZBVUxUX0FEVklDRVwiXX0iOw0KCSAgIAlyZXR1cm4gb2JqOw0KCX0NCgllbHNlIHsNCgkJb2JqID0gIiAgeyBcImF1dGhvcml6YXRpb25SZXN1bHRcIjogXCJERU5ZXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiREVGQVVMVF9GSUxURVJcIl0sXCJhZHZpY2VcIjogW1wiU1VCSkVDVF9OT1RfVkFMSURfUFJJVklMRUdFX09SX09SR0FOSVpBVElPTlwiXX0iOw0KCSAgIAlyZXR1cm4gb2JqOw0KCX0NCn0NCg=="
+  },
+  {
+    "id": "5430e3aa-0f17-4309-a3ca-797a71f79ed9",
+    "version": "g2wAAAACaAJtAAAADG4NnKXmAJzOAAILp2EBaAJtAAAADLgMXkyhjv+oAAIJVmEBag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583305867,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /grants?grantedPackageId={packageId} GET endpoint for \"RETRIEVE_PACKAGEGRANTS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PACKAGEGRANTS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "cb4f64b5-8587-4e43-a968-6836220dc0a8",
+    "version": "g2wAAAABaAJtAAAADG4NnKXmAJzOAAILqGECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583310191,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/tasks/assignServiceMembership POST endpoint for \"ASSIGN_SERVICEMEMBERSHIP\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ASSIGN_SERVICEMEMBERSHIP"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "7be084fe-3207-439a-851b-73630140c14f",
+    "version": "g2wAAAACaAJtAAAADCzwrvOIipfQAAFG0GEBaAJtAAAADG4NnKXmAJzOAAILnmECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583286048,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/privileges/{personId} GET endpoint for \"RETRIEVE_PERSONPRIVILEGES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONPRIVILEGES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "a0ceda7b-dba6-4467-ae64-0c49c1345b73",
+    "version": "g2wAAAABaAJtAAAADBfRJAErqDWHAAwYrGECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583248602,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization POLICY for /policies/{id} DELETE endpoint for \"DELETE_AUTHENTICATIONPOLICY\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_AUTHENTICATIONPOLICY"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "53a07ca0-5735-480a-b967-e83e6cf1c117",
+    "version": "g2wAAAABaAJtAAAADBfRJAErqDWHAAwYrWECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583275093,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for RETRIEVE_PERSONS action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJdmFyIG9iaiA9ICIiOw0KCQ0KCWlmIChzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUwOCJdID09ICI1MDgiICYmIHN1YmplY3RbInBlcnNvbi5wcml2aWxlZ2UuNTE3Il0gPT0gIjUxNyIgKSB7DQoJCW9iaiA9ICJ7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIkVYQ0hBTkdFQURNSU5fRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJCXJldHVybiBvYmo7CQkNCgl9DQoNCgllbHNlIGlmKCBzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjUxNyJdID09ICI1MTciKXsJCQ0KCQlvYmogPSAiICB7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIlNFQ1VSSVRZQURNSU5fRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJCQ0KCQlpZihzdWJqZWN0WyJwZXJzb24ub3JnYW5pemF0aW9uLmlkIl0gPT0gcmVzb3VyY2VbIm9yZ2FuaXphdGlvbklkIl0pDQoJCQlyZXR1cm4gb2JqOw0KCQllbHNlDQoJCQl7CQkNCgkJCXZhciB2YWx1ZSA9IHJlc291cmNlWyAib3JnYW5pemF0aW9uLnBhcmVudC5pZCJdOw0KCQkJICAgZm9yKHZhciBwcm9wIGluIHN1YmplY3QgKSB7DQoJCQkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkJCSAgICAJICAgaWYoIHN1YmplY3RbIHByb3AgXSA9PT0gdmFsdWUgKQ0KCQkJICAgICAgICAgICAgCXJldHVybiBvYmo7DQoJCQkgICAgICAgfQ0KCQkJICAgfQ0KCQkJIH0NCgkJCXJldHVybiBvYmo7DQoJIH0NCgllbHNlIGlmIChzdWJqZWN0WyJwZXJzb24ucHJpdmlsZWdlLjU0MiJdID09ICI1NDIiKSB7DQoJCW9iaiA9ICIgIHsgXCJhdXRob3JpemF0aW9uUmVzdWx0XCI6IFwiUEVSTUlUXCIsIFwib2JsaWdhdGlvbnNcIjogW1wiQVBQQURNSU5fRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJCXJldHVybiBvYmo7DQoJfQ0KCWVsc2UgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKXsNCgkJdmFyIG9iaiA9ICJ7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIlBFUk1JVFwiLCBcIm9ibGlnYXRpb25zXCI6IFtcIlVTRVJfRklMVEVSXCJdLFwiYWR2aWNlXCI6IFtcIkRFRkFVTFRfQURWSUNFXCJdfSI7DQoJCXJldHVybiBvYmo7DQoJfQ0KCWVsc2Ugew0KCQlvYmogPSAiICB7IFwiYXV0aG9yaXphdGlvblJlc3VsdFwiOiBcIkRFTllcIiwgXCJvYmxpZ2F0aW9uc1wiOiBbXCJERUZBVUxUX0ZJTFRFUlwiXSxcImFkdmljZVwiOiBbXCJTVUJKRUNUX05PVF9WQUxJRF9QUklWSUxFR0VcIl19IjsNCgkgICAJcmV0dXJuIG9iajsNCgl9DQp9"
+  },
+  {
+    "id": "b24dcdff-e91b-4a2f-8863-66f74e37caf9",
+    "version": "g2wAAAABaAJtAAAADGQ0XeIApyZdAAwWUmECag==",
+    "creator": "[COVS]COVS_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1465583291898,
+    "realm": "COVS",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /personInvitations/tasks/accept POST endpoint for \"ACCEPT_PERSONINVITATIONS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ACCEPT_PERSONINVITATIONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  }
+]
