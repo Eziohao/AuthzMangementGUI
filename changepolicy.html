@@ -10,6 +10,8 @@
 </head>
 <body ng-controller="changepolicy">
 <div class="container">
+  <table class="table">
+
 <div class="form-group">
     <tr>
   <table class="table table-bordered table-hover table-responsive">
@@ -26,11 +28,20 @@
       <td>{{detail.Person}}</td>
     </tr>
       </table>
-<label for="rule"> Rule </label>
-<textarea class="form-control" rows="20" id="rule"></textarea>
-<label for="script"> Generate Script </label>
-<textarea class="form-control" rows="1" id="script"></textarea>
+    </tr>
+    <tr>
+<td><label for="rule"> Rule </label></td>
+<td><textarea class="form-control" rows="20" id="rule"></textarea></td>
+</tr>
+<td><label for="script"> Generate Script </label></td>
+<td><textarea class="form-control" rows="1" id="script"></textarea></td>
+</tr>
+<tr>
+  <td>  <button type="submit" class="btn btn-default">Save</button></td>
+  <td><button type="reset" class="btn btn-default">Cancel</button></td>
+</tr>
 </div>
+</table>
 </div>
 </body>
 </html>
